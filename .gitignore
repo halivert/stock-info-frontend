@@ -1,0 +1,14 @@
+node_modules
+*.log
+.nuxt
+nuxt.d.ts
+.output
+.env
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
