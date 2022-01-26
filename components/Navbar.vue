@@ -8,7 +8,6 @@ const close = (evt) => {
 }
 
 const logout = () => {
-	console.log(token.value)
 	request(`/logout`, {
 		method: "POST",
 		headers: {
