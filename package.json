@@ -6,7 +6,15 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt3": "latest",
+    "sass": "1.49.0"
+  },
+  "dependencies": {
+    "bulma": "0.9.3"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": false
   },
   "packageManager": "yarn@3.1.1"
 }
